@@ -14,5 +14,5 @@ jobs:
         server: panel.freehosting.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-				local-dir: _site
-				server-dir: public_html
+        local-dir: _site
+        server-dir: public_html
