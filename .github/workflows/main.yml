@@ -11,14 +11,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: Specify Linux platform
+      run: bundle lock --add-platform x86_64-linux
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
-    
-    - name: Specify Linux platform
-      run: bundle lock --add-platform x86_64-linux
-    
+   
     - name: Build site
       run: bundle exec jekyll build
       env:
