@@ -1,4 +1,3 @@
-on: push
 name: Build & Deploy website on push
 
 on:
