@@ -2,13 +2,22 @@ on: push
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
     
-    - name: 📂 Sync files
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    
+    - name: Build site
+      run bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+
+    - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: panel.freehosting.com
