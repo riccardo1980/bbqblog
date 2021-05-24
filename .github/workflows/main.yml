@@ -16,6 +16,9 @@ jobs:
       with:
         bundler-cache: true
     
+    - name: Specify Linux platform
+      run: bundle lock --add-platform x86_64-linux
+    
     - name: Build site
       run: bundle exec jekyll build
       env:
