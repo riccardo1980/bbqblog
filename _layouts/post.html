@@ -17,7 +17,9 @@ layout: default
   
   <div class="post-content e-content" itemprop="articleBody">
     {%- if page.image -%}
+    <p>
       <img src="{{ page.image }}" alt="{{ page.title }}">
+    </p>
     {%- endif -%}
     {{ content }}
   </div>
