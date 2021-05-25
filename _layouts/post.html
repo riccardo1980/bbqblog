@@ -16,9 +16,9 @@ layout: default
   </header>
   
   <div class="post-content e-content" itemprop="articleBody">
-    {% if page.image %}
+    {%- if page.image -%}
       <img src="{{ page.image }}" alt="{{ page.title }}">
-    {% endif %}
+    {%- endif -%}
     {{ content }}
   </div>
 
