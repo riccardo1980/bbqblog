@@ -2,8 +2,7 @@
 layout: post
 title: "Marinatura 1"
 date: 2021-01-24
-description: 
-# image: /assets/images/ali-pollo-marinate.jpg
+description: "Marinatura 1"
 author: Riccardo
 tags:
   - marinatura
