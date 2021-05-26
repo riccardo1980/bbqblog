@@ -23,7 +23,7 @@ email: riccardo.zanella@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ricette per Barbecue e Griglia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "riccardozanella.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ric_zanella
 github_username:  riccardo1980
 

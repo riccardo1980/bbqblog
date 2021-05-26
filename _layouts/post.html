@@ -15,11 +15,12 @@ layout: default
       {%- endif -%}</p>
   </header>
   
-  {% if page.image %}
-    <img src="{{ page.image }}"" alt="{{ page.title }}">
-  {% endif %}
-  
   <div class="post-content e-content" itemprop="articleBody">
+    {%- if page.image -%}
+    <p>
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </p>
+    {%- endif -%}
     {{ content }}
   </div>
 
