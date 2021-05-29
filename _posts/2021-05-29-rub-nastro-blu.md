@@ -10,7 +10,7 @@ tags:
 ---
 
 ## Ingredienti
-- 5 pepe
+- 5 pepe nero
 - 5 paprika
 - 2 aglio
 - 2 sale
