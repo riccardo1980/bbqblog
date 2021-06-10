@@ -15,7 +15,7 @@ Ali di pollo marinate al barbecue
 
 - ali di pollo
 - marinatura: [marinatura 1]({% post_url 2021-01-24-marinatura-1 %})
-- rub: Rub Arthur Briant's
+- rub: [Rub Arthur Briant's]({% post_url 2021-01-24-rub-arthur-bryants %})
 
 ![Placeholder](/assets/images/ali-pollo-marinate-2.jpg)
 
