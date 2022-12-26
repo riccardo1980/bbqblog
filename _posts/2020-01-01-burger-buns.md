@@ -17,8 +17,8 @@ Da <a href="https://www.youtube.com/watch?v=ySeb07GwP8M">Cicciogamer</a>
 - mezzo bicchiere di latte
 - 1 uovo intero più un rosso
 - 50 gr. zucchero
-- sale pizzico
-- 7gr. lievito secco
+- 15 gr. sale
+- 7 gr. lievito secco
 - 30 gr. burro
 
 ## Preparazione
