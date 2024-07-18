@@ -1,0 +1,57 @@
+baseURL = 'http://riccardozanella.it'
+languageCode = 'it-it'
+defaultContentLanguage = "it"
+title = 'Riccardo'
+theme = 'dream'
+
+# [services]
+# [services.disqus]
+# shortname = ""
+# [services.googleAnalytics]
+# ID = ""
+
+[params]
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "/me/background.jpg"
+# backgroundImageDark = ""
+
+author = "Riccardo Zanella"
+# description = ""
+# avatar = "/img/avatar.png"
+headerTitle = "Barbecue & Griglia"
+# motto = ""
+
+# footerBottomText = ""
+
+# rss = true
+
+# utterancesRepo = ""
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+# VALINE_LANGUAGE = ""
+
+email = "riccardo.zanella@gmail.com"
+
+siteStartYear = 2020
+
+favicon = "/favicon.ico"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+showSummaryCoverInPost = true
+# hasTwitterEmbed = true
+
+# [params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+
+# [params.experimental]
+# jsDate = true
+# jsDateFormat = "yyyy-MM-dd"
