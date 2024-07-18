@@ -14,7 +14,7 @@ categories:
 tags:
   - pane
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 Da <a href="https://www.youtube.com/watch?v=ySeb07GwP8M">Cicciogamer</a>

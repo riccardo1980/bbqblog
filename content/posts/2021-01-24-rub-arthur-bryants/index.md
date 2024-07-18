@@ -13,7 +13,7 @@ categories:
 tags:
   - rub
 # nolastmod: true
-draft: true
+draft: false
 ---
 Rub dal sapore medio
 

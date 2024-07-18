@@ -14,7 +14,7 @@ tags:
   - friggitelli
   - formaggio
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

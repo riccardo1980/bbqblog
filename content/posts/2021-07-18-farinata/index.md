@@ -13,7 +13,7 @@ categories:
 tags:
   - farinata
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

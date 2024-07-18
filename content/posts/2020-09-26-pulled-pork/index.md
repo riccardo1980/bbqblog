@@ -14,7 +14,7 @@ tags:
   - capocollo
   - maiale
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

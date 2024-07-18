@@ -15,7 +15,7 @@ tags:
   - birra
   - patate
 # nolastmod: true
-draft: true
+draft: false
 ---
 ## Ingredienti
 - pollo intero (1.4kg)

@@ -11,7 +11,7 @@ categories:
 tags:
   - marinatura
 # nolastmod: true
-draft: true
+draft: false
 ---
 Marinatura 1
 

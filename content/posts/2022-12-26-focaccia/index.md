@@ -13,7 +13,7 @@ categories:
 tags:
   - pane
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

@@ -11,7 +11,7 @@ categories:
 tags:
   - cipolla
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

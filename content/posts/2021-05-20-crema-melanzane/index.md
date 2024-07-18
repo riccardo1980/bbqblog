@@ -13,7 +13,7 @@ categories:
 tags:
   - melanzane
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 ## Ingredienti

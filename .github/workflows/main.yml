@@ -8,18 +8,30 @@ jobs:
   web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache # <- Define the env variable here, so that Hugo's cache dir is now predictible
+
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Checkout code source
+      uses: actions/checkout@v4
       with:
-        bundler-cache: true
+        submodules: true
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: '0.119.0'
+        # extended: true
    
+    - uses: actions/cache@v4
+      with:
+        path: ${{ env.HUGO_CACHEDIR }} # <- Use the same env variable just right here
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-hugomod-
+        
     - name: Build site
-      run: bundle exec jekyll build
-      env:
-        JEKYLL_ENV: production
+      run: hugo
 
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
@@ -27,5 +39,5 @@ jobs:
         server: panel.freehosting.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: _site/
+        local-dir: public/
         server-dir: public_html/
