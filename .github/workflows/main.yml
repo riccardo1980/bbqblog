@@ -33,11 +33,18 @@ jobs:
     - name: Build site
       run: hugo
 
-    - name: Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
-        server: panel.freehosting.com
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
-        local-dir: public/
-        server-dir: public_html/
+    # - name: Sync files
+    #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
+    #   with:
+    #     server: panel.freehosting.com
+    #     username: ${{ secrets.ftp_username }}
+    #     password: ${{ secrets.ftp_password }}
+    #     local-dir: public/
+    #     server-dir: public_html/
+    - name: Deploy to Netlify
+      id: netlify_deploy
+      run: |
+        netlify deploy \
+          --dir public \
+          --site ${{ secrets.NETLIFY_SITE_ID }} \
+          --auth ${{ secrets.NETLIFY_API_TOKEN }}
