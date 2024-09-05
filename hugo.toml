@@ -38,14 +38,16 @@ email = "riccardo.zanella@gmail.com"
 
 siteStartYear = 2020
 
-favicon = "/favicon.ico"
+favicon = "favicon.ico"
 
 # Syntax highlighting
 # customSyntaxHighlighting = true
 
 # options
 stickyNav = true
+showTableOfContents = true
 showSummaryCoverInPost = true
+showPrevNextPost = true
 # hasTwitterEmbed = true
 
 # [params.advanced]

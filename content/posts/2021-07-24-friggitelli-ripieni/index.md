@@ -6,8 +6,9 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: friggitelli-1.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - friggitelli-1.jpg
+  - friggitelli-2.jpg
 categories:
   - ricette
 tags:
@@ -22,6 +23,7 @@ draft: false
 - formaggio (asiago, latteria, auricchio, ...)
 - 10 fette di pancetta
 
+<!--more-->
 
 ![Placeholder](friggitelli-2.jpg)
 

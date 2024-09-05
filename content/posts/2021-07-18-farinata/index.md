@@ -6,8 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: farinata.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - farinata.jpg
 categories:
   - ricette
 tags:
@@ -22,6 +22,8 @@ draft: false
 - 420g acqua
 - 6g sale
 - 7cl olio
+
+<!--more-->
 
 Mescolare gli ingredienti (tranne l'olio) e lasciare 4/6 ore ferma. Preriscaldare il testo a 220° C.
 Versare l'olio e poi l'impasto. Infornare a 250°C, girare il testo ogni tanto per fare incorporare l'olio.

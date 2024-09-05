@@ -6,8 +6,9 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: pulled-pork.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - pulled-pork.jpg
+  - pulled-pork-2.jpg
 categories:
   - ricette
 tags:
@@ -20,6 +21,8 @@ draft: false
 ## Ingredienti
 - 2kg capocollo
 - rub: [rub 1]({% post_url 2020-07-18-rub-1 %})
+
+<!--more-->
 
 ## Preparazione
 - Acqua nella vaschetta

@@ -6,8 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: pollo-lattina-birra.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - pollo-lattina-birra.jpg
 categories:
   - ricette
 tags:
@@ -24,6 +24,8 @@ draft: false
 - SPG (o salamoia bolognese)
 - timo
 - birra lattina 33 cl
+
+<!--more-->
 
 ### Preparazione
 - pelare le patate, tagliarle in 4, bollirle per 5 min, tagliarle a dadi 1 cm, stenderle sulla teglia, insaporire con olio + SPG

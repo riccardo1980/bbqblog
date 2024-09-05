@@ -6,6 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: rub-1.jpg
+imges:
+  - rub-1.jpg
 categories:
   - ricette
 tags:
@@ -22,3 +24,5 @@ draft: false
 - 1 Semi di finocchio
 - 1 Aglio
 - 1 Timo
+
+<!--more-->

@@ -6,8 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: crema-melanzane.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - crema-melanzane.jpg
 categories:
   - ricette
 tags:
@@ -23,6 +23,8 @@ draft: false
 - 1 spicchio d'aglio
 - olio 
 - sale
+
+<!--more-->
 
 Appoggiare le melanzane sulle braci, sono pronte quando diventano molli, circa 45 minuti. Farle raffreddare e raccogliere la polpa con il cucchiaio. Frullare con olio, sale,  succo di limone, menta, aglio in pezzi.
 
