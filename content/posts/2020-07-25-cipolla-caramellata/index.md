@@ -22,6 +22,8 @@ draft: false
 - olio
 - sale
 
+<!--more-->
+
 ## Preparazione
 Tagliare le cipolle a rondelle non troppo piccoli, scaldare l'olio in padella, aggiungere cipolle, zucchero, due prese di sale, cuocere per 15 minuti, girare ogni tanto.
 Aggiungi vino e aceto, a fuoco basso finché non evapora quasi tutto.

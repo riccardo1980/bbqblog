@@ -27,6 +27,8 @@ draft: false
 - 1 bustina lievito
 - Burro per imburrare gli stampini
 
+<!--more-->
+
 ## Preparazione
 Frullate le mandorle con lo zucchero aggiungendo la scorza di limone grattugiato, e tenetele da parte.
 Pelate le carote e tagliatele grossolanamente e frullate anch'esse insieme alle uova .unite gli impasti in una ciotola aggiungendo la farina setacciata e la bustina di lievito.

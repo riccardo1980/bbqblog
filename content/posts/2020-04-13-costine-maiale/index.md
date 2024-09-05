@@ -8,8 +8,8 @@ author: Riccardo
 cover: costine.jpg
 images:
   - costine.jpg
-  - costine2.jpg
-  - costine3.jpg
+  - costine-2.jpg
+  - costine-3.jpg
 categories:
   - ricette
 tags:
@@ -22,6 +22,8 @@ draft: false
 ## Ingredienti
 - 1kg costine di maiale
 - rub
+
+<!--more-->
 
 ## Preparazione
 - lasciare riposare 45' dopo aver messo il Rub

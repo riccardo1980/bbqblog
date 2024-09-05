@@ -6,8 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: pancakes.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - pancakes.jpg
 categories:
   - ricette
 tags:
@@ -25,5 +25,7 @@ draft: false
 - Cucchiaio zucchero
 - Cucchiaino sale
 - Noce burro
+
+<!--more-->
 
 Fornelli: 4 e 5

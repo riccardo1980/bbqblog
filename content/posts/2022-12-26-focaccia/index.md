@@ -6,8 +6,9 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: cotta.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - cotta.jpg
+  - impasto.jpg
 categories:
   - ricette
 tags:
@@ -24,6 +25,8 @@ draft: false
 - olio oliva
 - sale grosso
 - rosmarino 
+
+<!--more-->
 
 ## Preparazione
 Sciogli il lievito nell'acqua, aggiungi 3 cucchiai d'olio. Setaccia la farina, inserisci la parte liquida.

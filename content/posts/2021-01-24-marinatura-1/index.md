@@ -13,7 +13,6 @@ tags:
 # nolastmod: true
 draft: false
 ---
-Marinatura 1
 
 ### Ingredienti
 
@@ -24,3 +23,5 @@ Marinatura 1
 - 2cm zenzero tagliato sottile
 - 1/2 tazza di salsa di soia
 - spolverata di coriandolo
+
+<!--more-->

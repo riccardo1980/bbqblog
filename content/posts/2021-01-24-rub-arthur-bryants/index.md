@@ -6,8 +6,8 @@ author: Riccardo
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: ali-pollo-marinate-2.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - ali-pollo-marinate-2.jpg
 categories:
   - ricette
 tags:
@@ -16,6 +16,8 @@ tags:
 draft: false
 ---
 Rub dal sapore medio
+
+<!--more-->
 
 ## Riferimenti
 

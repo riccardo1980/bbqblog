@@ -7,8 +7,9 @@ author: Riccardo
 # authorlink: https://author.site
 # cover: /assets/images/burger-buns.jpg
 cover: burger-buns.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - burger-buns.jpg
+  - burger-buns-2.jpg
 categories:
   - ricette
 tags:
@@ -29,6 +30,8 @@ Da <a href="https://www.youtube.com/watch?v=ySeb07GwP8M">Cicciogamer</a>
 - 15 gr. sale
 - 7 gr. lievito secco
 - 30 gr. burro
+
+<!--more-->
 
 ## Preparazione
 - mescolare farine, lievito, zucchero

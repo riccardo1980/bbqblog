@@ -26,6 +26,8 @@ draft: false
 - 2 semi di sedano
 - 2 peperoncino essiccato
 
+<!--more-->
+
 ## Riferimenti
 
 - adattato a partire dal rub nastro blu in [Adler, Fertig - Ricette per il barbecue - Newton Compton](https://www.newtoncompton.com/libro/ricette-per-il-barbecue)
