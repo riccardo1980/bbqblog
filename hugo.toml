@@ -57,3 +57,6 @@ showPrevNextPost = true
 # [params.experimental]
 # jsDate = true
 # jsDateFormat = "yyyy-MM-dd"
+
+[imaging]
+    quality = 25
