@@ -30,7 +30,7 @@ Ali di pollo marinate al barbecue
 ### Preparazione
 - separare le ali nelle articolazioni, buttare le punte (o farci il brodo)
 - 24 ore di marinatura, asciugare prima di andare in griglia.
-- 180 °C, 45 minuti (85 °C all' interno) giro veloce in diretta.
+- 200/250 °C, 30/45 minuti (85 °C all' interno) giro veloce in diretta.
 - Affumicare con hickory, melo è poco presente
 - marinatura: [marinatura]({{< ref "/posts/2021-01-24-marinatura-1/index.md" >}}) -->
 - rub: [Rub Arthur Briant's]({{< ref "/posts/2021-01-24-rub-arthur-bryants/index.md" >}})
