@@ -13,7 +13,7 @@ jobs:
       HUGO_VERSION: 0.147.7
       NPM_CACHE: npm
       NPM_VERSION: 20
-      NETLIFY_VERSION: 17.10.1
+      NETLIFY_VERSION: 22.2.1
 
     steps:
     - name: Checkout code source
