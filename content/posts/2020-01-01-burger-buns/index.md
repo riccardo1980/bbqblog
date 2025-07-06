@@ -18,7 +18,7 @@ tags:
 draft: false
 ---
 
-Da <a href="https://www.youtube.com/watch?v=ySeb07GwP8M">Cicciogamer</a>
+Da [Cicciogamer](https://www.youtube.com/watch?v=ySeb07GwP8M)
 
 ## Ingredienti
 - 300 gr. farina (minimo 12g proteine)

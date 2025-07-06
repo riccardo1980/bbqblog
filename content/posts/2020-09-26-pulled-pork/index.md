@@ -20,7 +20,7 @@ draft: false
 
 ## Ingredienti
 - 2kg capocollo
-- rub: [rub 1]({% post_url 2020-07-18-rub-1 %})
+- rub: [rub 1]({{< ref "/posts/2020-07-18-rub-1/index.md" >}})
 
 <!--more-->
 

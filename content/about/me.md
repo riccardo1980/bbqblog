@@ -4,8 +4,6 @@ date: 2024-07-18T17:05:26+02:00
 draft: false
 ---
 
-About Me
+Hi, this is the personal blog of Riccardo 
 
 <!--more-->
-
-Hi, this is the personal blog of Riccardo 
