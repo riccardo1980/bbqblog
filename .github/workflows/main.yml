@@ -11,6 +11,9 @@ jobs:
     env:
       HUGO_CACHEDIR: /tmp/hugo_cache # <- Define the env variable here, so that Hugo's cache dir is now predictible
       HUGO_VERSION: 0.147.7
+      NPM_CACHE: npm
+      NPM_VERSION: 20
+      NETLIFY_VERSION: 17.10.1
 
     steps:
     - name: Checkout code source
@@ -34,6 +37,15 @@ jobs:
     - name: Build site
       run: hugo
 
+    - name: Setup NodeJS
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NPM_VERSION }}
+        cache: ${{ env.NPM_CACHE }}
+    
+    - name: Install Netlify
+      run: npm install netlify-cli@${{ env.NETLIFY_VERSION }} -g
+  
     - name: Deploy to Netlify
       id: netlify_deploy
       run: |
