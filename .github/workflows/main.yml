@@ -11,7 +11,6 @@ jobs:
     env:
       HUGO_CACHEDIR: /tmp/hugo_cache # <- Define the env variable here, so that Hugo's cache dir is now predictible
       HUGO_VERSION: 0.147.7
-      NPM_CACHE: npm
       NPM_VERSION: 20
       NETLIFY_VERSION: 22.2.1
 
@@ -27,7 +26,8 @@ jobs:
         hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
    
-    - uses: actions/cache@v4
+    - name: Retrieve hugo cache
+      uses: actions/cache@v4
       with:
         path: ${{ env.HUGO_CACHEDIR }} # <- Use the same env variable just right here
         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -37,6 +37,14 @@ jobs:
     - name: Build site
       run: hugo
     
+    - name: Retrieve npm cache
+      uses: actions/cache@v4
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-
+
     - name: Install Netlify  
       run: npm install netlify-cli@${{ env.NETLIFY_VERSION }} -g
   
