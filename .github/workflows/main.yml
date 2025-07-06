@@ -36,14 +36,8 @@ jobs:
         
     - name: Build site
       run: hugo
-
-    - name: Setup NodeJS
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ env.NPM_VERSION }}
-        cache: ${{ env.NPM_CACHE }}
     
-    - name: Install Netlify
+    - name: Install Netlify  
       run: npm install netlify-cli@${{ env.NETLIFY_VERSION }} -g
   
     - name: Deploy to Netlify
