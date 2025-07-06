@@ -17,14 +17,15 @@ tags:
 # nolastmod: true
 draft: false
 ---
-
 ## Ingredienti
 - 2kg capocollo
-- rub: [rub 1]({{< ref "/posts/2020-07-18-rub-1/index.md" >}})
+- rub
 
 <!--more-->
 
-## Preparazione
+### Preparazione
+Per il rub utilizzare [rub 1]({{< ref "/posts/2020-07-18-rub-1/index.md" >}})
+
 - Acqua nella vaschetta
 - ciliegio e hickory sul carbone
 - snake 2x2
